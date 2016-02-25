@@ -1,0 +1,62 @@
+
+Results
+======
+
+Correctly Classified Instances      737618               84.0065 %
+Incorrectly Classified Instances    140431               15.9935 %
+Kappa statistic                          0.8226
+K&B Relative Info Score            70740200.2229 %
+K&B Information Score              2735568.6605 bits      3.1155 bits/instance
+Class complexity | order 0         3395320.0541 bits      3.8669 bits/instance
+Class complexity | scheme           689261.819  bits      0.785  bits/instance
+Complexity improvement     (Sf)    2706058.2352 bits      3.0819 bits/instance
+Mean absolute error                      0.0187
+Root mean squared error                  0.0841
+Relative absolute error                 40.326  %
+Root relative squared error             55.2685 %
+Total Number of Instances           878049     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.662     0.014      0.699     0.662     0.68       0.987    WARRANTS
+                 0.805     0.036      0.792     0.805     0.798      0.98     OTHER OFFENSES
+                 0.942     0.021      0.918     0.942     0.93       0.994    LARCENY/THEFT
+                 0.96      0.003      0.954     0.96      0.957      0.999    VEHICLE THEFT
+                 0.869     0.006      0.887     0.869     0.878      0.997    VANDALISM
+                 0.9       0.01       0.914     0.9       0.907      0.995    NON-CRIMINAL
+                 0.821     0.004      0.851     0.821     0.836      0.998    ROBBERY
+                 0.825     0.02       0.796     0.825     0.81       0.99     ASSAULT
+                 0.656     0.003      0.674     0.656     0.665      0.997    WEAPON LAWS
+                 0.858     0.005      0.893     0.858     0.875      0.997    BURGLARY
+                 0.824     0.005      0.854     0.824     0.839      0.997    SUSPICIOUS OCC
+                 0.496     0.002      0.531     0.496     0.513      0.998    DRUNKENNESS
+                 0.809     0.002      0.83      0.809     0.819      0.999    FORGERY/COUNTERFEITING
+                 0.793     0.019      0.732     0.793     0.761      0.99     DRUG/NARCOTIC
+                 0.394     0.002      0.476     0.394     0.431      0.996    STOLEN PROPERTY
+                 0.372     0.005      0.454     0.372     0.409      0.993    SECONDARY CODES
+                 0.648     0.002      0.697     0.648     0.671      0.998    TRESPASS
+                 0.939     0.002      0.925     0.939     0.932      0.999    MISSING PERSON
+                 0.701     0.005      0.748     0.701     0.724      0.996    FRAUD
+                 0.435     0.001      0.54      0.435     0.482      0.998    KIDNAPPING
+                 0.7       0          0.796     0.7       0.745      1        RUNAWAY
+                 0.662     0.001      0.744     0.662     0.701      0.999    DRIVING UNDER THE INFLUENCE
+                 0.768     0.001      0.77      0.768     0.769      0.999    SEX OFFENSES FORCIBLE
+                 0.879     0.001      0.847     0.879     0.863      0.999    PROSTITUTION
+                 0.56      0.002      0.596     0.56      0.577      0.998    DISORDERLY CONDUCT
+                 0.825     0          0.87      0.825     0.847      1        ARSON
+                 0.745     0          0.813     0.745     0.778      1        FAMILY OFFENSES
+                 0.602     0.001      0.652     0.602     0.626      0.999    LIQUOR LAWS
+                 0.311     0          0.469     0.311     0.374      1        BRIBERY
+                 0.8       0          0.863     0.8       0.83       1        EMBEZZLEMENT
+                 0.722     0          0.793     0.722     0.756      1        SUICIDE
+                 0.672     0          0.723     0.672     0.696      0.999    LOITERING
+                 0.635     0          0.797     0.635     0.707      1        SEX OFFENSES NON FORCIBLE
+                 0.535     0          0.703     0.535     0.608      1        EXTORTION
+                 0.712     0          0.832     0.712     0.768      1        GAMBLING
+                 0.776     0          0.84      0.776     0.807      1        BAD CHECKS
+                 0.167     0          1         0.167     0.286      1        TREA
+                 0.902     0          0.95      0.902     0.925      1        RECOVERED VEHICLE
+                 0.682     0          0.789     0.682     0.732      1        PORNOGRAPHY/OBSCENE MAT
+Weighted Avg.    0.84      0.015      0.838     0.84      0.839      0.993
+
